@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --general-family: Inter, system-ui, Avenir, Helvetica, Arial,;
+    
+    --gray: #ddd;
+    --dark: #000;
+    --light: #fff;
+
+}
+body, html{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: var(--color-purple);
+}
+body, html {
+
+    height: 100vh;
+    font-family: 'Inter';
+}
+#app {
+    width: 34rem;
+    padding: 3rem;
+    border-radius: 9px;
+    background: #262626;
+
+    animation: appear .4s;
+
+}
+@keyframes appear {
+    0% {
+        scale: .2;
+        opacity: 0;
+    }
+}

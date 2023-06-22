@@ -1,0 +1,18 @@
+
+.player-name {
+
+    font-weight: 700;
+    font-family: Inter;
+    color: var(--color-white-600);
+
+    font-size: 1.3rem;
+
+}
+.players {
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    margin-bottom: 1rem;
+}

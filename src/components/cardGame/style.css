@@ -1,0 +1,30 @@
+
+
+/*---- Card Game style ----*/
+.grid-cards {
+
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+
+    gap: 1.3rem;
+    place-content: center;
+
+    
+}
+
+.card-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 2rem;
+
+    color: var(--color-white-400);
+    background: var(--color-card-background);
+
+    cursor: pointer;
+}
+.card-game #content {
+    width: 130px;
+    height: 130px;
+}
