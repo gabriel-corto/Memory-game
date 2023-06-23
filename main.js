@@ -1,28 +1,25 @@
 
 
 import './src/styles/main.css'
-import './src/components/cardGame/style.css'
+import './src/components/Card-Game/style.css'
 import './src/components/playerName/style.css'
 import './src/components/headerGame/style.css'
 import './src/styles/css-variables/colors.css'
 
-import boardGame from './src/components/BoardGame'
-import playerName from './src/components/playerName'
+
 import headerGame from './src/components/headerGame'
+import ScoreBoard from './src/objects/ScoreBoard'
+import cardGame from './src/components/Card-Game'
+import BoardGame from './src/objects/BoardGame'
+
 
 const app = document.querySelector('#app')
 
 app.insertAdjacentHTML('beforeend', 
         `   
             ${headerGame()}
-
-            <section class='players'>
-                ${playerName('Player 1')}
-                ${playerName('Player 2')}
-            </section>
+            ${ScoreBoard()}
+            ${BoardGame()}
             
-            <section class='grid-cards'>
-                ${boardGame(6)}
-            </section> 
-         `  
+        `  
     )

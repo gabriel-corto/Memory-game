@@ -24,7 +24,7 @@ body, html{
 body, html {
 
     height: 100vh;
-    font-family: 'Inter';
+    font-family: cursive;
 }
 #app {
     width: 34rem;
@@ -41,3 +41,4 @@ body, html {
         opacity: 0;
     }
 }
+

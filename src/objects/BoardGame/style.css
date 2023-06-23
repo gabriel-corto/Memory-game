@@ -1,0 +1,11 @@
+
+
+.board-game {
+
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+
+    gap: 1.3rem;
+    place-content: center;
+
+}

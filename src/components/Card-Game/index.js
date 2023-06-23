@@ -1,12 +1,12 @@
 
-function cardGame(amountCard){
-    
+function cardGame(amountCards){
+
     return `
 
         <article class="card-game">
             <img 
-                src="./src/components/images/question.png"
-                alt="Question Image"
+                src="./src/images/dog.png"
+                alt="Default Img"
                 id="content"
             >
         </article>
