@@ -1,3 +1,4 @@
+
 import cardGame from "../../components/Card-Game"
 import "../../objects/BoardGame/style.css"
 

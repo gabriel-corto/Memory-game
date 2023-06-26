@@ -9,7 +9,6 @@ import './src/styles/css-variables/colors.css'
 
 import headerGame from './src/components/headerGame'
 import ScoreBoard from './src/objects/ScoreBoard'
-import cardGame from './src/components/Card-Game'
 import BoardGame from './src/objects/BoardGame'
 
 
