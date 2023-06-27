@@ -1,0 +1,32 @@
+
+
+.player-score {
+    width: 68px;
+    height: 20px;
+
+    display: flex;
+    text-indent: -9999px;
+
+    list-style: none;
+
+    gap: 3px;
+    flex-direction: row-reverse;
+}
+.player-score  .points {
+    width: 44%;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.324);
+}
+
+.player-score[data-points = "1"] > .points:first-child {
+    background: var(--color-yellow-600);
+
+}
+.player-score[data-points = "2"] > .points:nth-child(n+2) {
+    background: var(--color-yellow-600);
+
+}
+.player-score[data-points = "3"] > .points {
+    background: var(--color-yellow-600);
+    border: 0;
+}
